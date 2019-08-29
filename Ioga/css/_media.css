@@ -1,0 +1,61 @@
+
+@media (max-width: 1200px) {
+
+    .contact-img img {
+        margin-left: -100px;
+    }
+
+}
+
+
+@media (max-width: 991px) {
+
+    .contact-img img {
+       display: none;
+    }
+    .contact-form {
+        margin-left: 50px;
+        padding: 50px;
+    }
+    .photo {
+        display: none !important;
+    }
+    .description-text {
+        margin: 0;
+        padding: 0;
+        width: 200%;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    .main-block {
+        width: 100% !important;
+    }
+
+    .info-header-tab,
+    .main-block-descr {
+        font-size: 16px !important;
+    }
+    .main-block-title,
+    .slider-title,
+    .counter-title,
+    .timer-title {
+        font-size: 26px !important;
+    }
+    .timer-action {
+        font-size: 14px !important;
+    }
+    .timer-numbers {
+        font-size: 50px !important;
+    }
+    .contact-form {
+        margin: 0;
+        padding: 10px;
+    }
+    .counter-block-option {
+        margin: 10px 30px;
+    }
+}
