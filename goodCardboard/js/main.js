@@ -33,7 +33,7 @@
     
             myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
                 hintContent: 'Добрый картон',
-                balloonContent: 'Это красивая метка'
+                balloonContent: 'Метка'
             }, {
                 // Опции.
                 // Необходимо указать данный тип макета.
