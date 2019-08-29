@@ -1,0 +1,50 @@
+$bg-color-light: #f4f4f4
+$active-color: #fd9c28
+
+.features
+	background-color: $bg-color-light
+	padding-top: 50px
+	padding-bottom: 55px
+	&-blocks
+		display: flex
+		justify-content: space-between	
+	&-block
+		display: flex	
+		align-items: center
+		background-color: #fff
+		padding: 28px 20px
+		border: 1px solid orange
+		border-radius: 5px
+		&__img
+			flex-basis: 40%
+			margin-right: 9px
+		&__title
+			font-size: 18px
+			font-weight: 700
+			margin-bottom: 5px
+		&__descr
+			font-size: 16px
+			font-weight: 300
+
+.numbers
+	display: flex
+	flex-direction: row
+	align-items: space-around
+	justify-content: center
+	align-content: space-around
+	flex-wrap: wrap
+	margin-top: 50px
+	margin-bottom: 50px	
+	&-block
+		flex-basis: 33%
+		text-align: center
+		&__title
+			sup
+				font-size: 18px
+			margin-bottom: 10px
+			font-size: 36px
+			font-weight: 700
+			color: $active-color
+		&__text
+			font-size: 16px
+			font-weight: 300
