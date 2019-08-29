@@ -1,0 +1,102 @@
+
+/* Увеличение Фото */
+
+.photoModalBg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  text-align: center;
+  background:rgba(0 , 0 , 0 , 0.9);
+}
+.photoModal {
+  position: fixed;
+  top: 10%;
+  left: 30%;
+  width: 40%;
+  border: 3px solid #1F85DE;
+  border-radius: 50px;
+  color: #ccc;
+  z-index: 9; 
+}
+
+/* Анимация */
+/* Показать модальное окно */
+.showModal {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Переключение табов */
+.show {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.sizeBig {
+  width: 28%;
+  border: 1px solid #53A9F4;
+  border-radius: 10px;
+  -webkit-animation-name: sizeBigCalc;
+          animation-name: sizeBigCalc;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-name: sizeBigCalc;
+  -webkit-animation-duration: .5s;
+}
+@-webkit-keyframes sizeBigCalc {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes sizeBigCalc {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
